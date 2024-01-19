@@ -4,12 +4,16 @@
   "description": "",
   "main": "./src/swr-lru-cache.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "github.com/dmmulroy/swr-lru-cache"
+  },
+  "author": "Dillon Mulroy <dillon.mulroy@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "bundle": "tsup src/swr-lru-cache.ts --format esm,cjs --dts -d=./lib",
     "test": "vitest"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest",
     "fast-check": "^3.15.0",
@@ -19,6 +23,5 @@
   },
   "peerDependencies": {
     "swr": "^2.2.4"
-  },
-  "dependencies": {}
+  }
 }
