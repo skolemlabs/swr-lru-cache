@@ -1,17 +1,24 @@
 {
   "name": "swr-lru-cache",
-  "version": "1.0.2",
-  "description": "",
-  "main": "./src/swr-lru-cache.ts",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "github.com/dmmulroy/swr-lru-cache"
-  },
+  "version": "1.0.2",
+  "description": "A drop in least-recently-used Cache for `SWR`",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "module": "lib/index.js",
+  "repository": "https://github.com/skolemlabs/swr-lru-cache",
   "author": "Dillon Mulroy <dillon.mulroy@gmail.com>",
-  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "swr",
+    "vercel",
+    "nextjs",
+    "next",
+    "cache",
+    "library"
+  ],
   "scripts": {
-    "bundle": "tsup src/swr-lru-cache.ts --format esm,cjs --dts -d=./lib",
+    "bundle": "tsup src/index.ts --format esm,cjs --dts -d=./lib",
     "test": "vitest"
   },
   "devDependencies": {
