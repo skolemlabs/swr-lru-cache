@@ -5,7 +5,7 @@
   "main": "./src/swr-lru-cache.ts",
   "type": "module",
   "scripts": {
-    "bundle": "tsup src/*.ts --format esm,cjs --dts -d=./lib",
+    "bundle": "tsup src/swr-lru-cache.ts --format esm,cjs --dts -d=./lib",
     "test": "vitest"
   },
   "author": "",
