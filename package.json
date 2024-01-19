@@ -8,6 +8,12 @@
   "module": "lib/index.js",
   "repository": "https://github.com/skolemlabs/swr-lru-cache",
   "author": "Dillon Mulroy <dillon.mulroy@gmail.com>",
+  "files": [
+    "index.cjs",
+    "index.d.cts",
+    "index.d.ts",
+    "index.js"
+  ],
   "keywords": [
     "typescript",
     "swr",
